@@ -2,20 +2,57 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>UMM Computer Science</title>
-  <link rel="stylesheet" type="text/css" href="./assets/vendor/bootstrap/css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="./css/style1.css">
   <link href="https://fonts.googleapis.com/css?family=Exo|Fanwood+Text|Libre+Barcode+128+Text" rel="stylesheet">
-  <script>
-      var shiftWindow = function() { scrollBy(0, -60) };
-      window.addEventListener("hashchange", shiftWindow);
-      function shiftOnLoad() { if (window.location.hash) shiftWindow(); }
-  </script>
-  <script src="./assets/vendor/jquery-3.2.1.min.js"></script>
-  <script src="./assets/vendor/popper/umd/popper.js"></script>
-  <script type="text/javascript" src="./assets/vendor/bootstrap/js/bootstrap.js"></script>
+  <link
+          rel="stylesheet"
+          href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
 </head>
-<body onload="shiftOnLoad()">
+
+<header class="mdc-toolbar mdc-toolbar--fixed">
+  <div class="mdc-toolbar__row">
+    <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+      <a href="#" class="material-icons mdc-toolbar__menu-icon">UMM CSci</a>
+      <span class="mdc-toolbar__title">Title</span>
+
+    </section>
+  </div>
+</header>
+
+<!--
+<nav class="navbar navbar-expand-md navbar-light fixed-top">
+  <a class="navbar-brand" href="#">UMM CSci</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="https://getbootstrap.com/">Bootstrap</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://ddg.wcroc.umn.edu/">DDG</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#pslo">PSLOs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#courses">Courses</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#faculty">Faculty</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+-->
+
+<main>
 <div id="umm-csci" class="container">
 
   <div class="container">
@@ -151,35 +188,10 @@
     </div>
   </div>
 
-  <nav class="navbar navbar-expand-md navbar-light fixed-top">
-    <a class="navbar-brand" href="#">UMM CSci</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="https://getbootstrap.com/">Bootstrap</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://ddg.wcroc.umn.edu/">DDG</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#pslo">PSLOs</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#courses">Courses</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#faculty">Faculty</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">disabled</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
 </div>
-</body>
+</main>
+
+<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+<script>window.mdc.autoInit();</script>
+
 </html>
