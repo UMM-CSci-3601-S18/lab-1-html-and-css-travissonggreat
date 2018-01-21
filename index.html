@@ -7,18 +7,18 @@
   <link rel="stylesheet" type="text/css" href="./css/style1.css">
   <link href="https://fonts.googleapis.com/css?family=Exo|Fanwood+Text|Libre+Barcode+128+Text" rel="stylesheet">
   <script>
-  var shiftWindow = function() { scrollBy(0, -60) };
-  window.addEventListener("hashchange", shiftWindow);
-  function shiftOnLoad() { if (window.location.hash) shiftWindow(); }
+      var shiftWindow = function() { scrollBy(0, -60) };
+      window.addEventListener("hashchange", shiftWindow);
+      function shiftOnLoad() { if (window.location.hash) shiftWindow(); }
   </script>
   <script src="./assets/vendor/jquery-3.2.1.min.js"></script>
   <script src="./assets/vendor/popper/umd/popper.js"></script>
   <script type="text/javascript" src="./assets/vendor/bootstrap/js/bootstrap.js"></script>
 </head>
 <body onload="shiftOnLoad()">
-  <div id="umm-csci" class="container">
+<div id="umm-csci" class="container">
 
-<div class="container">
+  <div class="container">
     <div class="row">
       <div class="col">
         <h1 id="main-title">UMM Computer Science</h1>
@@ -51,134 +51,135 @@
       <div class="col-1 d-none d-md-block">
       </div>
     </div>
-</div>
+  </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-lg-5 program-section" id="pslo">
-          <h2>Program Student Learning Outcomes for UMM Computer Science</h2>
-          <ol>
-            <li class="pslo">Students will be	able to apply fundamental principles of computer science to solve problems in all core	areas of computer science.</li>
-            <li class="pslo">Students will demonstrate technological flexibility through the ability to employ new sets of tools effectively.</li>
-            <li class="pslo">Students will be able to communicate technical ideas effectively both orally and in written form. </li>
-            <li class="pslo">Students will demonstrate their ability to work in groups as part of an effective team.</li>
-            <li class="pslo">Students will be able to identify and analyze ethical implications involving technology.</li>
-          </ol>
-        </div>
-        <div class="col program-section" id="courses">
-          <h2>Required Courses</h2>
-          <ul>
-            <li class="major-element level-1xxx" id="introductory-sequence">An introductory course sequence
-              <ul>
-                <li><span class="discipline csci">CSci</span> <span class="course-number">1302</span></li>
-                <li>One of:
-                  <ul>
-                    <li><span class="discipline csci">CSci</span> <span class="course-number">1201</span></li>
-                    <li><span class="discipline csci">CSci</span> <span class="course-number">1301</span></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li class="major-element level-2xxx" id="data-structures"><span class="discipline csci">CSci</span> <span class="course-number">2101</span></li>
-            <li class="major-element level-3xxx" id="core-courses">Core Courses
-              <ul>
-                <li><span class="discipline csci">CSci</span> <span class="course-number">3402</span></li>
-                <li><span class="discipline csci">CSci</span> <span class="course-number">3403</span></li>
-                <li><span class="discipline csci">CSci</span> <span class="course-number">3501</span></li>
-                <li><span class="discipline csci">CSci</span> <span class="course-number">3601</span></li>
-              </ul></li>
-              <li class="major-element level-4xxx" id="electives">Ten credits of electives 4xxx so that the split of credits is at least 4 in two of the areas and at least 2 in the third area.</li>
-              <li class="major-element level-1xxx" id="ethical-and-social-implications"><span class="discipline is">IS</span> <span class="course-number">1091</span></li>
-              <li class="major-element level-4xxx" id="senior-seminar"><span class="discipline csci">CSci</span> <span class="course-number">4901</span></li>
-              <li class="major-element" id="math-and-stats">12 credits of:
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-5 program-section" id="pslo">
+        <h2>Program Student Learning Outcomes for UMM Computer Science</h2>
+        <ol>
+          <li class="pslo">Students will be	able to apply fundamental principles of computer science to solve problems in all core	areas of computer science.</li>
+          <li class="pslo">Students will demonstrate technological flexibility through the ability to employ new sets of tools effectively.</li>
+          <li class="pslo">Students will be able to communicate technical ideas effectively both orally and in written form. </li>
+          <li class="pslo">Students will demonstrate their ability to work in groups as part of an effective team.</li>
+          <li class="pslo">Students will be able to identify and analyze ethical implications involving technology.</li>
+        </ol>
+      </div>
+      <div class="col program-section" id="courses">
+        <h2>Required Courses</h2>
+        <ul>
+          <li class="major-element level-1xxx" id="introductory-sequence">An introductory course sequence
+            <ul>
+              <li><span class="discipline csci">CSci</span> <span class="course-number">1302</span></li>
+              <li>One of:
                 <ul>
-                  <li><span class="discipline math">Math</span> at or above <span class="course-number">1101</span> excluding "History of math"</li>
-                  <li><span class="discipline stat">Stat</span> 2xxx or above</li>
+                  <li><span class="discipline csci">CSci</span> <span class="course-number">1201</span></li>
+                  <li><span class="discipline csci">CSci</span> <span class="course-number">1301</span></li>
                 </ul>
               </li>
             </ul>
-          </div>
-        </div>
+          </li>
+          <li class="major-element level-2xxx" id="data-structures"><span class="discipline csci">CSci</span> <span class="course-number">2101</span></li>
+          <li class="major-element level-3xxx" id="core-courses">Core Courses
+            <ul>
+              <li><span class="discipline csci">CSci</span> <span class="course-number">3402</span></li>
+              <li><span class="discipline csci">CSci</span> <span class="course-number">3403</span></li>
+              <li><span class="discipline csci">CSci</span> <span class="course-number">3501</span></li>
+              <li><span class="discipline csci">CSci</span> <span class="course-number">3601</span></li>
+            </ul></li>
+          <li class="major-element level-4xxx" id="electives">Ten credits of electives 4xxx so that the split of credits is at least 4 in two of the areas and at least 2 in the third area.</li>
+          <li class="major-element level-1xxx" id="ethical-and-social-implications"><span class="discipline is">IS</span> <span class="course-number">1091</span></li>
+          <li class="major-element level-4xxx" id="senior-seminar"><span class="discipline csci">CSci</span> <span class="course-number">4901</span></li>
+          <li class="major-element" id="math-and-stats">12 credits of:
+            <ul>
+              <li><span class="discipline math">Math</span> at or above <span class="course-number">1101</span> excluding "History of math"</li>
+              <li><span class="discipline stat">Stat</span> 2xxx or above</li>
+            </ul>
+          </li>
+        </ul>
       </div>
-
-      <div class="program-section" id="faculty">
-        <h2>Faculty</h2>
-        <div class="row">
-          <div class="col-lg-3 col-sm-6">
-            <div class="card">
-              <img class="card-img-top" src="./assets/images/Elena.jpg" alt="Elena Machkasova">
-              <div class="card-body">
-                <h4 class="card-title">Elena Machkasova</h4>
-                <p class="card-text">Sci 2325</p>
-                <p class="card-text">Programming languages</p>
-                <a href="http://cda.morris.umn.edu/~elenam" class="btn btn-primary">Elena's homepage</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <div class="card">
-              <img class="card-img-top" src="./assets/images/KK.jpg" alt="KK Lamberty">
-              <div class="card-body">
-                <h4 class="card-title">KK Lamberty</h4>
-                <p class="card-text">Sci 2525</p>
-                <p class="card-text">Human-computer interaction</p>
-                <a href="http://facultypages.morris.umn.edu/~lamberty/" class="btn btn-primary">KK's homepage</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <div class="card">
-              <img class="card-img-top" src="./assets/images/Nic.jpg" alt="Nic McPhee">
-              <div class="card-body">
-                <h4 class="card-title">Nic McPhee</h4>
-                <p class="card-text">Sci 1315</p>
-                <p class="card-text">Evolutionary computation</p>
-                <a href="http://facultypages.morris.umn.edu/~mcphee" class="btn btn-primary">Nic's homepage</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-6">
-            <div class="card">
-              <img class="card-img-top" src="./assets/images/Peter.jpg" alt="Peter Dolan">
-              <div class="card-body">
-                <h4 class="card-title">Peter Dolan</h4>
-                <p class="card-text">Sci 1440</p>
-                <p class="card-text">Data science</p>
-                <a href="http://facultypages.morris.umn.edu/~dolan118/" class="btn btn-primary">Peter's homepage</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <nav class="navbar navbar-expand-md navbar-light fixed-top">
-        <a class="navbar-brand" href="#">UMM CSci</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="https://getbootstrap.com/">Bootstrap</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://ddg.wcroc.umn.edu/">DDG</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pslo">PSLOs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#courses">Courses</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#faculty">Faculty</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">disabled</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
     </div>
-  </body>
-  </html>
+  </div>
+
+  <div class="program-section" id="faculty">
+    <h2>Faculty</h2>
+    <div class="row">
+      <div class="col-lg-3 col-sm-6">
+        <div class="card">
+          <img class="card-img-top" src="./assets/images/Elena.jpg" alt="Elena Machkasova">
+          <div class="card-body">
+            <h4 class="card-title">Elena Machkasova</h4>
+            <p class="card-text">Sci 2325</p>
+            <p class="card-text">Programming languages</p>
+            <a href="http://cda.morris.umn.edu/~elenam" class="btn btn-primary">Elena's homepage</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="card">
+          <img class="card-img-top" src="./assets/images/KK.jpg" alt="KK Lamberty">
+          <div class="card-body">
+            <h4 class="card-title">KK Lamberty</h4>
+            <p class="card-text">Sci 2525</p>
+            <p class="card-text">Human-computer interaction</p>
+            <a href="http://facultypages.morris.umn.edu/~lamberty/" class="btn btn-primary">KK's homepage</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="card">
+          <img class="card-img-top" src="./assets/images/Nic.jpg" alt="Nic McPhee">
+          <div class="card-body">
+            <h4 class="card-title">Nic McPhee</h4>
+            <p class="card-text">Sci 1315</p>
+            <p class="card-text">Evolutionary computation</p>
+            <a href="http://facultypages.morris.umn.edu/~mcphee" class="btn btn-primary">Nic's homepage</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="card">
+          <img class="card-img-top" src="./assets/images/Peter.jpg" alt="Peter Dolan">
+          <div class="card-body">
+            <h4 class="card-title">Peter Dolan</h4>
+            <p class="card-text">Sci 1440</p>
+            <p class="card-text">Data science</p>
+            <a href="http://facultypages.morris.umn.edu/~dolan118/" class="btn btn-primary">Peter's homepage</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-md navbar-light fixed-top">
+    <a class="navbar-brand" href="#">UMM CSci</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="https://getbootstrap.com/">Bootstrap</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://ddg.wcroc.umn.edu/">DDG</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#pslo">PSLOs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#courses">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#faculty">Faculty</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">disabled</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+</div>
+</body>
+</html>
