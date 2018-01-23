@@ -15,6 +15,11 @@ body{
 #main-title{
   background-color: #FFDE7A;
   color: #0b0c09;
+  text-align: center;
+  padding: 2%;
+  border: 5px solid;
+  margin-left: 25%;
+  max-width: 50%;
 }
 
 .section{
@@ -38,4 +43,25 @@ a:link {
 .card-text{
   color: #FFDE7A;
 }
+
+
+
+
+
+
+
+#faculty-list{
+  text-align: center;
+}
+
+#faculty>ul>li{
+  display:inline-block;
+  text-align: center;
+  margin-left: 2%;
+
+
+
+
+}
+
 
