@@ -9,5 +9,33 @@ use float to make something locate itself on the right or left
 
 body{
     padding: 30px;
-    background-color: #0700ff;
+    background-color: #242424;
 }
+
+#main-title{
+  background-color: #FFDE7A;
+  color: #0b0c09;
+}
+
+.section{
+  color:#f9f7f6;
+}
+
+.card{
+
+  color:#f9f7f6;
+}
+
+a:link {
+  color: red;
+}
+
+
+
+#style{
+  color: #ffe2fb;
+}
+.card-text{
+  color: #FFDE7A;
+}
+
