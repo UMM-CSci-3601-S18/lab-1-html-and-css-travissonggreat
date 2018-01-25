@@ -41,7 +41,7 @@ a:link {
   color: #ffe2fb;
 }
 .card-text{
-  color: #FFDE7A;
+  color: #0b0c09;
 }
 
 
@@ -58,10 +58,25 @@ a:link {
   display:inline-block;
   text-align: center;
   margin-left: 2%;
+}
+
+h2{
+  text-align: center;
+}
 
 
 
+#courses{
+  background-color: #FFDE7A;
+  color:#0b0c09;
+  border:5px solid;
 
 }
 
 
+#validation{
+  background-color: #FFDE7A;
+  color:#0b0c09;
+  border:5px solid;
+  padding:2%;
+}
