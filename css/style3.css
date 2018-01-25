@@ -22,12 +22,27 @@ body{
 }
 
 #faculty{
-  /*margin-left: 50%;
-  */
-
   float:right;
   display:inline;
   width:49%;
+
+
 }
 
 
+
+
+#main-title{
+  margin-left: 25%;
+  max-width: 50%;
+}
+
+
+#pslo{
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+
+#courses{
+  margin-bottom:10%;
+}
