@@ -11,3 +11,23 @@ body{
     padding: 30px;
     background-color: #aaaaaa;
 }
+
+
+#courses{
+  /*margin-right:50%;
+  */
+  float:left;
+  display:inline;
+  width:49%;
+}
+
+#faculty{
+  /*margin-left: 50%;
+  */
+
+  float:right;
+  display:inline;
+  width:49%;
+}
+
+
