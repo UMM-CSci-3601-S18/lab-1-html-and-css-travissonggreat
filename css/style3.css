@@ -10,6 +10,8 @@ use float to make something locate itself on the right or left
 body{
     padding: 30px;
     background-color: #aaaaaa;
+    background-image: url("https://images.homedepot-static.com/productImages/f32e787d-1ca5-405f-b3e1-da60d4acc12f/svn/a-street-wallpaper-2697-22625sam-64_1000.jpg");
+
 }
 
 
@@ -29,19 +31,35 @@ body{
 
 }
 
+#faculty-list{
+  text-align: center;
+}
 
+#faculty ul{
+  list-style-type:none;
+}
 
+#faculty h2{
+  text-align: center;
+  margin-left:5%;
+}
 
 #main-title{
-  margin-left: 25%;
-  max-width: 50%;
+  text-align: center;
+  margin-bottom: 5%;
+
+  padding:1%;
 }
 
 
 #pslo{
-  margin-left: 15%;
+  text-align:center;
+  list-style-position: inside;
   margin-bottom: 5%;
+  border: 100px solid;
+  border-image: url("http://longwallpapers.com/Desktop-Wallpaper/neon-wallpapers-photo-For-Desktop-Wallpaper.jpg");
 }
+
 
 #courses{
   margin-bottom:10%;
