@@ -32,7 +32,7 @@ body{
 }
 
 a:link {
-  color: red;
+  color: black;
 }
 
 
@@ -40,6 +40,7 @@ a:link {
 #style{
   color: #ffe2fb;
 }
+
 .card-text{
   color: #0b0c09;
 }
@@ -80,3 +81,41 @@ h2{
   border:5px solid;
   padding:2%;
 }
+
+
+#style a:link{
+  color: white;
+}
+#style li {
+  float: left;
+}
+
+#style li a{
+  padding:5px;
+  text-align: center;
+  display: block;
+}
+
+#style li a:hover{
+  background-color:gray;
+}
+
+
+#style {
+  position: fixed;
+  background-color: #c6001b;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  height: 55px;
+  top: 5px;
+  border:5px solid;
+  border-color: black;
+}
+
+
+#style ul{
+  list-style-type:none;
+}
+
+
