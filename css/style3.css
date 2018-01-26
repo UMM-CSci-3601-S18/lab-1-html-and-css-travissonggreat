@@ -20,15 +20,23 @@ body{
   */
   float:left;
   display:inline;
-  width:49%;
+  width:47%;
+
+  margin-bottom:10%;
+  padding:1%;
+  background-color: #bdb6bb;
+  border: 10px solid;
+  border-image: url("http://longwallpapers.com/Desktop-Wallpaper/neon-wallpapers-photo-For-Desktop-Wallpaper.jpg") 10 round;
 }
 
 #faculty{
   float:right;
   display:inline;
-  width:49%;
+  width:47%;
 
-
+  background-color: #bdb6bb;
+  border: 10px solid;
+  border-image: url("http://longwallpapers.com/Desktop-Wallpaper/neon-wallpapers-photo-For-Desktop-Wallpaper.jpg") 10 round;
 }
 
 #faculty-list{
@@ -56,11 +64,17 @@ body{
   text-align:center;
   list-style-position: inside;
   margin-bottom: 5%;
-  border: 100px solid;
-  border-image: url("http://longwallpapers.com/Desktop-Wallpaper/neon-wallpapers-photo-For-Desktop-Wallpaper.jpg");
+  background-color: #bdb6bb;
+  border: 10px solid;
+  border-image: url("http://longwallpapers.com/Desktop-Wallpaper/neon-wallpapers-photo-For-Desktop-Wallpaper.jpg") 10 round;
 }
 
 
-#courses{
-  margin-bottom:10%;
+#validation{
+  background-color: #bdb6bb;
+  padding: 2%;
+  margin-top: 45%;
+  margin-right: 49.5%;
+  border: 10px solid;
+  border-image: url("http://longwallpapers.com/Desktop-Wallpaper/neon-wallpapers-photo-For-Desktop-Wallpaper.jpg") 10 round;
 }
