@@ -78,3 +78,46 @@ body{
   border: 10px solid;
   border-image: url("http://longwallpapers.com/Desktop-Wallpaper/neon-wallpapers-photo-For-Desktop-Wallpaper.jpg") 10 round;
 }
+
+
+
+
+
+#style a:link{
+  color: white;
+}
+#style li {
+  float: left;
+}
+
+#style li a{
+  padding:5px;
+  text-align: center;
+  display: block;
+}
+
+#style li a:hover{
+  background-color:gray;
+}
+
+
+#style {
+  position: relative;
+  background-color: #c6001b;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  height: 55px;
+  top: 5px;
+  border:5px solid;
+  border-color: black;
+
+  margin-right: 49.5%;
+  margin-top: 4%;
+
+}
+
+
+#style ul{
+  list-style-type:none;
+}
