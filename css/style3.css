@@ -11,7 +11,7 @@ body{
     padding: 30px;
     background-color: #aaaaaa;
     background-image: url("https://images.homedepot-static.com/productImages/f32e787d-1ca5-405f-b3e1-da60d4acc12f/svn/a-street-wallpaper-2697-22625sam-64_1000.jpg");
-
+    /*sets an image to the background of the entire page*/
 }
 
 
@@ -30,7 +30,7 @@ body{
 }
 
 #faculty{
-  float:right;
+  float:right;/*moves faculty pictures to the right side of the page next to the courses block*/
   display:inline;
   width:47%;
 
@@ -77,6 +77,7 @@ body{
   margin-right: 49.5%;
   border: 10px solid;
   border-image: url("http://longwallpapers.com/Desktop-Wallpaper/neon-wallpapers-photo-For-Desktop-Wallpaper.jpg") 10 round;
+  /*sets an image as the boarder of the box*/
 }
 
 
@@ -91,13 +92,13 @@ body{
 }
 
 #style li a{
-  padding:5px;
+  padding:5px;/*adds padding between the words and the box*/
   text-align: center;
   display: block;
 }
 
 #style li a:hover{
-  background-color:gray;
+  background-color:gray;/*makes background color of links turn gray when hovered on*/
 }
 
 

@@ -13,9 +13,9 @@ body{
 }
 
 #main-title{
-  background-color: #FFDE7A;
+  background-color: #FFDE7A; /*changes background color of the entire page */
   color: #0b0c09;
-  text-align: center;
+  text-align: center;/*aligns text to the center of the box*/
   padding: 2%;
   border: 5px solid;
   margin-left: 25%;
@@ -32,7 +32,7 @@ body{
 }
 
 a:link {
-  color: black;
+  color: black;/*changes the color of a link to black*/
 }
 
 
@@ -56,7 +56,7 @@ a:link {
 }
 
 #faculty>ul>li{
-  display:inline-block;
+  display:inline-block;/*lists pictures horizontally instead of vertically*/
   text-align: center;
   margin-left: 2%;
 }
@@ -70,7 +70,7 @@ h2{
 #courses{
   background-color: #FFDE7A;
   color:#0b0c09;
-  border:5px solid;
+  border:5px solid;/*adds a solid black boarder around the box*/
 
 }
 
